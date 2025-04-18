@@ -1,0 +1,28 @@
+{
+  "parent": "abyss:layer4",
+  "criteria": {
+    "entered_chasm": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "abyss:abyssal_chasm"
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Entered Layer 7, the Abyssal Chasm. Have you gone too deep?",
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "alexscaves:abyssmarine"
+    },
+    "show_toast": true,
+    "title": "Layer 7"
+  },
+  "requirements": [
+    [
+      "entered_chasm"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

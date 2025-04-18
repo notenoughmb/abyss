@@ -1,0 +1,28 @@
+{
+  "parent": "abyss:root",
+  "criteria": {
+    "entered_afterdark": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "the_afterdark:afterdark"
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Entered Layer 1, the Afterdark. The air is wet, lush, pleasant. But thinning.",
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:glow_berries"
+    },
+    "show_toast": true,
+    "title": "Layer 1"
+  },
+  "requirements": [
+    [
+      "entered_afterdark"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

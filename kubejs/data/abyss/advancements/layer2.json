@@ -1,0 +1,28 @@
+{
+  "parent": "abyss:layer1",
+  "criteria": {
+    "entered_magnetic": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "abyss:magnetic_caves"
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Entered Layer 2, the Galena Expanse. The air is thin here. Prepare accordingly.",
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "alexscaves:galena"
+    },
+    "show_toast": true,
+    "title": "Layer 2"
+  },
+  "requirements": [
+    [
+      "entered_magnetic"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

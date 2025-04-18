@@ -1,0 +1,28 @@
+{
+  "parent": "abyss:layer7",
+  "criteria": {
+    "entered_otherside": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "deeperdarker:otherside"
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Entered Layer 8, the Otherside... too dark.",
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:sculk"
+    },
+    "show_toast": true,
+    "title": "Layer 8"
+  },
+  "requirements": [
+    [
+      "entered_otherside"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

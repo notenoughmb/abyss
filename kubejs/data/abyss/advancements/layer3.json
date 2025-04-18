@@ -1,0 +1,28 @@
+{
+  "parent": "abyss:layer2",
+  "criteria": {
+    "entered_nether": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_nether"
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Entered Layer 3, the Nether. An overgrown hellpit, a mockery of the Afterdark.",
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:netherrack"
+    },
+    "show_toast": true,
+    "title": "Layer 3"
+  },
+  "requirements": [
+    [
+      "entered_nether"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "abyss:layer3",
+  "criteria": {
+    "entered_toxic": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "abyss:toxic_caves"
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Entered Layer 4, the Toxic Caves. The remnants of a misguided civilization.",
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "alexscaves:radrock"
+    },
+    "show_toast": true,
+    "title": "Layer 4"
+  },
+  "requirements": [
+    [
+      "entered_toxic"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
